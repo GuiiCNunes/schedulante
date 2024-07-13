@@ -1,2 +1,2 @@
 # Schedulante
-## Plataforma para gerenciar estudos e outros compromissos
+## Plataforma para gerir estudos e outros compromissos
