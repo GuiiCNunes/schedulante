@@ -20,3 +20,9 @@
 * Docker
 * MySQL
 * MongoDB(?)
+
+## Conceitos para colocar
+
+* CI/CD
+* Testes Unitários
+* TDD (?)
