@@ -11,7 +11,7 @@
 
 * Contabilizar uma ofensiva em dias realizando o que precisa
 * Possibilidade de cadastrar além dos estudos (habitos, rotinas, etc.)
-* Pontuações(?)
+* Recompensas (pontos)
 
 ## Stacks
 
