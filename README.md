@@ -12,3 +12,11 @@
 * Contabilizar uma ofensiva em dias realizando o que precisa
 * Possibilidade de cadastrar além dos estudos (habitos, rotinas, etc.)
 * Pontuações(?)
+
+## Stacks
+
+* Java
+* Spring
+* Docker
+* MySQL
+* MongoDB(?)
