@@ -19,6 +19,13 @@ public class TestConteudo {
             Object conteudo = new Conteudo();
             assertInstanceOf(Conteudo.class, conteudo);
         }
+        @Test
+        @DisplayName("Testa o construtor com link")
+        public void testaConstructorLink() {
+            Conteudo conteudo = new Conteudo(linkExemplo1);
+            assertInstanceOf(Conteudo.class, conteudo);
+            assertEquals(linkExemplo1, conteudo.getLink());
+        }
     }
 
     @Nested
