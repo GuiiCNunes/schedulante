@@ -4,9 +4,12 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertInstanceOf;
 
 public class TestConteudo {
+    final String linkExemplo1 = "www.google.com";
+
     @Nested
     @DisplayName("Testa a inicializacao")
     class TestInicializacao {
@@ -15,6 +18,18 @@ public class TestConteudo {
         public void testaInicializacaoDaClasse() {
             Object conteudo = new Conteudo();
             assertInstanceOf(Conteudo.class, conteudo);
+        }
+    }
+
+    @Nested
+    @DisplayName("Testa os atributos da classe")
+    class TestAtributos {
+        @Test
+        @DisplayName("Teste do atributo Link")
+        public void testaInicializacaoDaClasse() {
+            Conteudo conteudo = new Conteudo();
+            conteudo.setLink(linkExemplo1);
+            assertEquals(linkExemplo1, conteudo.getLink());
         }
     }
 }
