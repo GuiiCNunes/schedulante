@@ -1,6 +1,8 @@
 package com.icnun.schedulante.model;
 
-public class Conteudo {
+import java.io.Serializable;
+
+public class Conteudo implements Serializable {
     private String link;
     public Conteudo(){}
 
